@@ -267,7 +267,7 @@ c=int(0.78*n_timesteps)
 training_HL, test_HL=mknn.seperateTT(dataset_tags[0:n_timesteps],c,n_timesteps)
 print('The data number in the training set is :', len(training_HL*9))
 print('The data number in the test set is :', len(test_HL*9))
-test_num=15#initailize cluter number
+test_num=8#initailize cluter number
 #vote for HL status
 #index_HL=[]
 non_correct_HL=0
